@@ -1,0 +1,119 @@
+.App {
+  text-align: center;
+}
+body{
+  background-color: rgb(255, 208, 0);
+}
+.title{
+  background-color: rgb(255, 208, 0);
+  text-align: center;
+  height: auto;
+}
+.header{
+  position: sticky; top: 0;
+  background-color: white;
+}
+.napit{
+  width: 300px;
+  min-width: 100px;
+  height: 110px;
+  display: grid;
+  grid-template-columns: auto;
+}
+.del{
+  margin-top: 20px;
+  border-radius: 10px;
+  border: solid 1px rgb(54, 56, 54);
+  background-color: rgb(217, 238, 217);
+}
+.fetch{
+  border-radius: 10px;
+  border: solid 1px rgb(54, 56, 54);
+  background-color: rgb(217, 238, 217);
+}
+.fetch:hover{
+  background-color: rgba(0, 184, 0, 0.863);
+}
+.del:hover{
+  color: white;
+  background-color: rgb(243, 0, 0);
+}
+.input{
+  width: 100%;
+  min-width: 100px;
+  height: 45px;
+  margin-top: -15px;
+  border-radius: 10px;
+  border: solid 1px rgb(54, 56, 54);
+  background-color: rgb(217, 238, 217);
+}
+.word-count{
+  width: 300px;
+  min-width: 100px;
+  display: grid;
+  grid-template-columns: auto;
+  align-items: center;
+}
+.total{
+  width: 300px;
+  min-width: 100px;
+  margin-top: 20px;
+  grid-column-start: 3;
+}
+.filter{
+  position: sticky; top: 43.2px;
+  background-color: rgb(255, 208, 0);
+  display: flex;
+  flex-direction: row;
+  gap: 3%;
+  justify-content: center;
+  width: auto;
+  margin-bottom: 1rem;
+}
+.quote-container{
+  background-color: rgb(217, 238, 217);
+  border: solid 1px rgb(54, 56, 54);
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 80% 20%;
+  max-width: 700px;
+  min-width: auto;
+  height: auto;
+  margin-top: 10px;
+}
+.quote-list{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(255, 208, 0);
+  margin: auto;
+  width: 80%;
+  max-width: 700px;
+}
+.quote{
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 100%;
+}
+.poista{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.poista-btn:hover{
+  color: white;
+  background-color: rgb(243, 0, 0);
+}
+.poista-btn{
+  border-radius: 6px;
+  background-color: rgb(217, 238, 217);
+}
+h2{
+  width: 120%;
+  background-color: rgb(255, 208, 0);
+  display: flex;
+  align-items: center;
+  position: sticky; top: 153px;
+  height: 50px;
+}
